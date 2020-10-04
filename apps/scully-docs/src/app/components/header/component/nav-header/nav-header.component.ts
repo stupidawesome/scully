@@ -6,7 +6,6 @@ import { Component, ViewEncapsulation, Input, HostBinding } from '@angular/core'
   template: `
     <ul class="persistent">
       <li class="logo"><a aria-label="go to home page" routerLink="/"></a></li>
-      <li class="text">#BlackLivesMatter</li>
       <li class="icon menu"><label for="mobile-toggle"></label></li>
     </ul>
     <ul class="mobile-hidden">
